@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
 body {
-    background-color: #1b1b1b;
+    background-color: #1757ab;
+    /*background-image: url('https://codegena.com/wp-content/uploads/2015/10/Background-Pattern.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -9,7 +14,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px) saturate(200%) brightness(70%);
+    background-color: #0d7691;
     color: #fff;
     display: flex;
     height: 7vw;
@@ -183,3 +188,12 @@ nav h1 {
     font-size: 5vw;
     text-shadow: 0 0 100px #2c7ffc;
     }
+
+h2 {
+  color: #fff;
+  text-align:center;
+  background-color: #292929;
+  padding:.5vw;
+  border-radius: .5vw;
+  width:10vw;
+}
